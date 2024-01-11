@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Web Design Mastery | Fitclub</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="{% static 'images/logo.png'%}" alt="logo" /></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Home</a></li>
+
+        <li class="link"><a href="https://smartlearn.o1codingclub.in/home">About</a></li>
+
+      </ul>
+      <a href="https://coderun.o1codingclub.in/"> <button class="btn"> Join Now</button></a>
+    </nav>
+
+    <header class="section__container header__container">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4>BEST FITNESS IN THE TOWN</h4>
+        <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
+        <p>
+          Unleash your potential and embark on a journey towards a stronger,
+          fitter, and more confident you. Sign up for 'Make Your Body Shape' now
+          and witness the incredible transformation your body is capable of!
+        </p>
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="header__image">
+        <img src="{% static 'images/header.png'%}" alt="header" />
+      </div>
+    </header>
+
+
+
+    <section class="section__container price__container">
+      <h2 class="section__header">OUR PRICING PLAN</h2>
+      <p class="section__subheader">
+        Our pricing plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Basic Plan</h4>
+            <h3>$16</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Smart workout plan
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              At home workouts
+            </p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Weekly Plan</h4>
+            <h3>$25</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              PRO Gyms
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Smart workout plan
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              At home workouts
+            </p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Monthly Plan</h4>
+            <h3>$45</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              ELITE Gyms & Classes
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              PRO Gyms
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Smart workout plan
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              At home workouts
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Personal Training
+            </p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="section__container footer__container">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><img src="{% static 'images/logo.png'%}" alt="logo" /></div>
+        <p>
+          Take the first step towards a healthier, stronger you with our
+          unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+        </p>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+
+        <a href="https://www.linkedin.com/in/o-1-coding-club/">Contact Us</a>
+
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+  </body>
+</html>
